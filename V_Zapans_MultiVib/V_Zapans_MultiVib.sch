@@ -158,9 +158,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 4150 5750 4150
 Wire Wire Line
-	5750 4150 5750 3300
-Connection ~ 5750 3300
-Wire Wire Line
 	5350 3100 4350 3100
 Wire Wire Line
 	4350 3100 4350 3950
@@ -217,4 +214,7 @@ NoConn ~ 5300 3850
 NoConn ~ 5300 3750
 NoConn ~ 4500 3850
 NoConn ~ 4500 3750
+Wire Wire Line
+	5750 3300 5750 4150
+Connection ~ 5750 3300
 $EndSCHEMATC
