@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -32,6 +32,7 @@ F 0 "C6" H 5115 3546 50  0000 L CNN
 F 1 "0.33uF" H 5115 3455 50  0000 L CNN
 F 2 "" H 5000 3500 50  0001 C CNN
 F 3 "~" H 5000 3500 50  0001 C CNN
+F 4 "50V" H 4900 3500 50  0000 R CNN "Voltage"
 	1    5000 3500
 	1    0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 0 "C7" H 6365 3546 50  0000 L CNN
 F 1 "0.1uF" H 6365 3455 50  0000 L CNN
 F 2 "" H 6250 3500 50  0001 C CNN
 F 3 "~" H 6250 3500 50  0001 C CNN
+F 4 "50V" H 6150 3500 50  0000 R CNN "Voltage"
 	1    6250 3500
 	1    0    0    -1  
 $EndComp

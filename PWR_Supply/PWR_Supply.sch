@@ -57,4 +57,46 @@ F2 "VCC" I L 5850 2300 50
 F3 "+3.3" I R 7200 2300 50 
 F4 "GND" I L 5850 2600 50 
 $EndSheet
+Wire Wire Line
+	4200 2700 5350 2700
+Wire Wire Line
+	5350 2700 5350 2300
+Wire Wire Line
+	5350 1300 5850 1300
+Wire Wire Line
+	5850 2300 5350 2300
+Connection ~ 5350 2300
+Wire Wire Line
+	5350 2300 5350 1300
+Wire Wire Line
+	5350 4450 5850 4450
+Wire Wire Line
+	5350 2700 5350 3350
+Connection ~ 5350 2700
+Wire Wire Line
+	5350 3350 5850 3350
+Connection ~ 5350 3350
+Wire Wire Line
+	5350 3350 5350 4450
+Wire Wire Line
+	4200 3200 5150 3200
+Wire Wire Line
+	5150 3200 5150 2600
+Wire Wire Line
+	5150 1600 5850 1600
+Wire Wire Line
+	5150 2600 5850 2600
+Connection ~ 5150 2600
+Wire Wire Line
+	5150 2600 5150 1600
+Wire Wire Line
+	5150 3700 5850 3700
+Connection ~ 5150 3200
+Wire Wire Line
+	5150 4800 5850 4800
+Wire Wire Line
+	5150 3200 5150 3700
+Connection ~ 5150 3700
+Wire Wire Line
+	5150 3700 5150 4800
 $EndSCHEMATC
