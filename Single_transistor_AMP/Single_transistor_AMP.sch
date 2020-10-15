@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5F88B5A8
+P 3700 3450
+F 0 "C1" V 3650 3350 50  0000 C CNN
+F 1 "1uF" V 3650 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 3300 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0805C105K4RACAUTO.pdf" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F88BE63
+P 4000 3700
+F 0 "R1" H 4059 3746 50  0000 L CNN
+F 1 "10k" H 4059 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4000 3700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2167391.pdf?_ga=2.200484782.1627624114.1602790569-1535366573.1602517668" H 4000 3700 50  0001 C CNN
+	1    4000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5F88C84A
+P 4000 4200
+F 0 "C2" H 4118 4246 50  0000 L CNN
+F 1 "10uF" H 4118 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 4038 4050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1880261.pdf?_ga=2.3752368.1627624114.1602790569-1535366573.1602517668" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F88D70C
+P 4450 2750
+F 0 "R2" H 4509 2796 50  0000 L CNN
+F 1 "220k" H 4509 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4450 2750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf?_ga=2.31600318.1627624114.1602790569-1535366573.1602517668" H 4450 2750 50  0001 C CNN
+	1    4450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5F88DD76
+P 4700 3900
+F 0 "R4" V 4504 3900 50  0000 C CNN
+F 1 "100k" V 4595 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4700 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf?_ga=2.237636096.1627624114.1602790569-1535366573.1602517668" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5F88E301
+P 4450 4200
+F 0 "R3" H 4509 4246 50  0000 L CNN
+F 1 "1k" H 4509 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4450 4200 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5F88E6F4
+P 5000 4200
+F 0 "R6" H 5059 4246 50  0000 L CNN
+F 1 "1k" H 5059 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5000 4200 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5F88FEAB
+P 5000 2650
+F 0 "R5" H 5059 2696 50  0000 L CNN
+F 1 "6.8k" H 5059 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5000 2650 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf?_ga=2.266561038.1627624114.1602790569-1535366573.1602517668" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F8904BD
+P 5400 2850
+F 0 "C3" V 5350 2750 50  0000 C CNN
+F 1 "1uF" V 5350 3000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 2700 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0805C105K4RACAUTO.pdf" H 5400 2850 50  0001 C CNN
+	1    5400 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2750 5000 2850
+Wire Wire Line
+	5000 3350 5000 3900
+Wire Wire Line
+	4700 3150 4450 3150
+Wire Wire Line
+	4450 3150 4450 3250
+Connection ~ 5000 3900
+Wire Wire Line
+	5000 3900 5000 4100
+Wire Wire Line
+	4450 3150 4450 2850
+Connection ~ 4450 3150
+Wire Wire Line
+	5250 2850 5000 2850
+Connection ~ 5000 2850
+Wire Wire Line
+	5000 2850 5000 2950
+Wire Wire Line
+	4450 2650 4450 2400
+Wire Wire Line
+	4450 2400 5000 2400
+Wire Wire Line
+	5000 2400 5000 2550
+Wire Wire Line
+	4450 3650 4450 4100
+Wire Wire Line
+	4800 3900 5000 3900
+Wire Wire Line
+	4600 3900 4000 3900
+Connection ~ 4000 3900
+Wire Wire Line
+	4000 3900 4000 4050
+Wire Wire Line
+	3850 3450 4000 3450
+Wire Wire Line
+	4000 3800 4000 3900
+Wire Wire Line
+	4000 3600 4000 3450
+Connection ~ 4000 3450
+Wire Wire Line
+	4000 3450 4150 3450
+Wire Wire Line
+	4000 4350 4000 4450
+Wire Wire Line
+	4000 4450 4450 4450
+Wire Wire Line
+	4450 4450 4450 4300
+Wire Wire Line
+	4450 4450 5000 4450
+Wire Wire Line
+	5000 4450 5000 4300
+Connection ~ 4450 4450
+$Comp
+L power:GND #PWR02
+U 1 1 5F895230
+P 4450 4450
+F 0 "#PWR02" H 4450 4200 50  0001 C CNN
+F 1 "GND" H 4455 4277 50  0000 C CNN
+F 2 "" H 4450 4450 50  0001 C CNN
+F 3 "" H 4450 4450 50  0001 C CNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5F8986A4
+P 5850 2850
+F 0 "J3" H 5800 2950 50  0000 L CNN
+F 1 "Signal_Output" V 5950 2550 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 5850 2850 50  0001 C CNN
+F 3 "~" H 5850 2850 50  0001 C CNN
+	1    5850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5F898D93
+P 3200 3550
+F 0 "J1" H 3200 3350 50  0000 C CNN
+F 1 "Signal_Input" V 3300 3500 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 3200 3550 50  0001 C CNN
+F 3 "~" H 3200 3550 50  0001 C CNN
+	1    3200 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3450 3400 3450
+$Comp
+L power:GND #PWR04
+U 1 1 5F89A332
+P 5650 2950
+F 0 "#PWR04" H 5650 2700 50  0001 C CNN
+F 1 "GND" H 5655 2777 50  0000 C CNN
+F 2 "" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F89A9C2
+P 3400 3550
+F 0 "#PWR01" H 3400 3300 50  0001 C CNN
+F 1 "GND" H 3405 3377 50  0000 C CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F89BBB8
+P 5300 2050
+F 0 "J2" H 5250 2150 50  0000 L CNN
+F 1 "+12V" V 5400 1900 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 5300 2050 50  0001 C CNN
+F 3 "~" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2400 5000 2250
+Wire Wire Line
+	5000 2250 5300 2250
+Connection ~ 5000 2400
+$Comp
+L power:GND #PWR03
+U 1 1 5F89D865
+P 5400 2250
+F 0 "#PWR03" H 5400 2000 50  0001 C CNN
+F 1 "GND" H 5405 2077 50  0000 C CNN
+F 2 "" H 5400 2250 50  0001 C CNN
+F 3 "" H 5400 2250 50  0001 C CNN
+	1    5400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5F88A3B4
+P 4350 3450
+F 0 "Q1" H 4540 3541 50  0000 L CNN
+F 1 "2N3904" H 4540 3450 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 3375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4350 3450 50  0001 L CNN
+F 4 "E" V 4400 3250 50  0000 L CNN "Emiter"
+F 5 "B" H 4250 3500 50  0000 C CNN "Base"
+F 6 "C" V 4400 3600 50  0000 C CNN "Collector"
+	1    4350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 5F89EF77
+P 4900 3150
+F 0 "Q2" H 5090 3241 50  0000 L CNN
+F 1 "2N3904" H 5090 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 3075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4900 3150 50  0001 L CNN
+F 4 "E" V 4950 2950 50  0000 L CNN "Emiter"
+F 5 "B" H 4800 3200 50  0000 C CNN "Base"
+F 6 "C" V 4950 3300 50  0000 C CNN "Collector"
+	1    4900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2850 5650 2850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8A4EF2
+P 5400 2250
+F 0 "#FLG0101" H 5400 2325 50  0001 C CNN
+F 1 "PWR_FLAG" V 5400 2378 50  0000 L CNN
+F 2 "" H 5400 2250 50  0001 C CNN
+F 3 "~" H 5400 2250 50  0001 C CNN
+	1    5400 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 5400 2250
+$EndSCHEMATC
