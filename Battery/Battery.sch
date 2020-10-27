@@ -1,4 +1,80 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5F982FAC
+P 5550 3150
+F 0 "BT1" H 5668 3246 50  0000 L CNN
+F 1 "SMTU2032" H 5668 3155 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 5550 3210 50  0001 C CNN
+F 3 "~" V 5550 3210 50  0001 C CNN
+	1    5550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F9836EC
+P 5550 3450
+F 0 "#PWR02" H 5550 3200 50  0001 C CNN
+F 1 "GND" H 5555 3277 50  0000 C CNN
+F 2 "" H 5550 3450 50  0001 C CNN
+F 3 "" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5F983AAD
+P 5550 2650
+F 0 "#PWR01" H 5550 2500 50  0001 C CNN
+F 1 "+3.3V" H 5565 2823 50  0000 C CNN
+F 2 "" H 5550 2650 50  0001 C CNN
+F 3 "" H 5550 2650 50  0001 C CNN
+	1    5550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3450 5550 3250
+Wire Wire Line
+	5550 2950 5550 2650
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5F983E9C
+P 6400 3150
+F 0 "BT2" H 6518 3246 50  0000 L CNN
+F 1 "S8211R" H 6518 3155 50  0000 L CNN
+F 2 "" V 6400 3210 50  0001 C CNN
+F 3 "~" V 6400 3210 50  0001 C CNN
+	1    6400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3250 5550 3250
+Connection ~ 5550 3250
+$Comp
+L power:+5V #PWR03
+U 1 1 5F9847FF
+P 6400 2650
+F 0 "#PWR03" H 6400 2500 50  0001 C CNN
+F 1 "+5V" H 6415 2823 50  0000 C CNN
+F 2 "" H 6400 2650 50  0001 C CNN
+F 3 "" H 6400 2650 50  0001 C CNN
+	1    6400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2950 6400 2650
 $EndSCHEMATC
