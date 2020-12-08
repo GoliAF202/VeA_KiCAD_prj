@@ -183,7 +183,7 @@ U 1 1 5F8986A4
 P 5850 2850
 F 0 "J3" H 5800 2950 50  0000 L CNN
 F 1 "Signal_Output" V 5950 2550 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 5850 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5850 2850 50  0001 C CNN
 F 3 "~" H 5850 2850 50  0001 C CNN
 	1    5850 2850
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5F898D93
 P 3200 3550
 F 0 "J1" H 3200 3350 50  0000 C CNN
 F 1 "Signal_Input" V 3300 3500 50  0000 C CNN
-F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 3200 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3200 3550 50  0001 C CNN
 F 3 "~" H 3200 3550 50  0001 C CNN
 	1    3200 3550
 	-1   0    0    1   
@@ -229,7 +229,7 @@ U 1 1 5F89BBB8
 P 5300 2050
 F 0 "J2" H 5250 2150 50  0000 L CNN
 F 1 "+12V" V 5400 1900 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 5300 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 2050 50  0001 C CNN
 F 3 "~" H 5300 2050 50  0001 C CNN
 	1    5300 2050
 	0    -1   -1   0   
