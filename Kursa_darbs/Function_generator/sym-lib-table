@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Function_generator-rescue)(type Legacy)(uri ${KIPRJMOD}/Function_generator-rescue.lib)(options "")(descr ""))
+)
